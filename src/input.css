@@ -13,3 +13,9 @@
 .imgcard{
     @apply bg-white border-2 border-blue-500 rounded-xl p-4 flex items-center justify-center w-full md:w-[125px];
 }
+.jobclass{
+    @apply flex relative flex-col md:flex-row gap-6 justify-between items-center bg-white pt-6 pb-3 md:p-3 mt-12 ml-2 mr-2 rounded-lg border-l-4 border-[#5ba4a5] shadow-2xl;
+}
+.righrdiv{
+    @apply bg-[#e9f7f7] font-bold px-4 py-2 rounded-md text-[#3f5252]  hover:bg-[#5ba4a5] hover:text-white cursor-pointer;
+}
